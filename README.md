@@ -1,5 +1,7 @@
-# libkita
+# libkita.bsd
 
+    dvogit fork for FreeBSD users. original by domsson
+    
 _This is a work in progress. Some things are not implemented. Other things might break._
 
 libkita makes it easy to create and run child processes, monitor their activity, read their `stdout` and `stderr` output, as well as write to their `stdin`. It is not a _one size fits all_ library; I'm writing this for a [particular use-case](https://github.com/domsson/succade) and the library therefore makes certain assumptions and is lacking features that I don't need for my purposes.
